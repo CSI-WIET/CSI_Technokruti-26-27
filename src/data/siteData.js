@@ -65,6 +65,19 @@ export const EVENT_GROUPS = [
 export const EVENTS = [
   // ---------- Inter-College ----------
   {
+    id: "ideathon",
+    group: "inter-college",
+    title: "Ideathon",
+    poster: "ideathon.jpg",
+    date: "9–10 October 2026",
+    prizePool: "₹35,000",
+    entryFee: "Free for CSI members",
+    coordinators: [
+      { name: "Aarti Nipurte", phone: "7448087153" },
+      { name: "Sofiya Shaikh", phone: "9820289381" },
+    ],
+  },
+  {
     id: "the-courtroom",
     group: "inter-college",
     title: "The Courtroom",
@@ -77,6 +90,22 @@ export const EVENTS = [
       { name: "Rounak Singh", phone: "8779031645" },
     ],
   },
+  {
+    id: "design-detective",
+    group: "inter-college",
+    title: "Design Detective",
+    poster: "design-detective.jpg",
+    date: "9–10 October 2026",
+    prizePool: "₹35,000",
+    entryFee: "₹150",
+    coordinators: [
+      { name: "Soham Vaity", phone: "9321629301" },
+      { name: "Nikhil More", phone: "9594452632" },
+      { name: "Vikas Yadav", phone: "9820609671" },
+      { name: "Muskan Rajput", phone: "7021160546" },
+    ],
+  },
+
   // ---------- Intra-College ----------
   {
     id: "crack-the-code",
@@ -111,7 +140,7 @@ export const EVENTS = [
   },
   {
     id: "mind-palace",
-    group: "inter-college",
+    group: "intra-college",
     title: "The Mind Palace",
     poster: "mind-palace.jpg",
     date: "9–10 October 2026",
@@ -216,6 +245,8 @@ export const SCHEDULE = [
     date: "10 October 2026",
     subtitle: "The Investigation",
     items: [
+      { time: "10:00", title: "Design Detective",  },
+      { time: "11:30", title: "Ideathon",  },
       { time: "12:00", title: "Crack The code",  },
       { time: "13:30", title: "The Courtroom",  },
       
