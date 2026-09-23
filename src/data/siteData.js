@@ -155,21 +155,6 @@ export const EVENTS = [
     ],
   },
   {
-    id: "roborace",
-    group: "intra-college",
-    title: "RoboRace",
-    poster: "roborace.jpg",
-    date: "9–10 October 2026",
-    prizePool: "₹35,000",
-    entryFee: "₹150 + ₹500 (refundable deposit)",
-    registrationLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSc3WHtwHz2jbiA58PaOmp6A0BWD2CsRcz_E4aEwbYyoE8Z1ug/viewform",
-    coordinators: [
-      { name: "Prem Nikam", phone: "9322435821" },
-      { name: "Atharva Patil", phone: "9819804208" },
-    ],
-  },
-  {
     id: "watson-test",
     group: "intra-college",
     title: "Watson Test",
@@ -252,7 +237,6 @@ export const SCHEDULE = [
       { time: "11:00", title: "The Mind Palace",  },
       { time: "12:00", title: "Bug Detective",  },
       { time: "14:00", title: "Watson Test",  },
-      { time: "15:30", title: "Roborace ", },
       { time: "17:00", title: "The Missing Clue",  },
     ],
   },
