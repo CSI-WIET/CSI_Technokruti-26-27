@@ -81,13 +81,14 @@ export const EVENTS = [
     id: "the-courtroom",
     group: "inter-college",
     title: "The Courtroom",
-    poster: "the-courtroom.jpg",
+    poster: "courtroom.jpg",
     date: "9–10 October 2026",
     prizePool: "₹35,000",
     entryFee: "₹200",
     coordinators: [
       { name: "Shrishti Pathak", phone: "9082897495" },
       { name: "Rounak Singh", phone: "8779031645" },
+      { name: "Nirjara Gaonkar", phone: "8652556555" }
     ],
   },
   {
@@ -142,14 +143,14 @@ export const EVENTS = [
     id: "mind-palace",
     group: "intra-college",
     title: "The Mind Palace",
-    poster: "mind-palace.jpg",
+    poster: "mind palace.jpg",
     date: "9–10 October 2026",
     prizePool: "₹35,000",
     entryFee: "₹50",
     registrationLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSeIAC2Q4n6RjWd5v5ifJs3j3U3smi00aNi2alP1DlBfLVo63g/viewform?usp=publish-editor",
     coordinators: [
-      { name: "Shrishti Pathak", phone: "9082897495" },
+      { name: "Srushti Devrukhkar ", phone: "9769353679" },
       { name: "Vedshree Jadhav", phone: "8329656560" },
       { name: "Ayushi Maurya", phone: "9152844927" },
     ],
@@ -233,11 +234,11 @@ export const SCHEDULE = [
     date: "9 October 2026",
     subtitle: "The Summons",
     items: [
-      { time: "10:00 ", title: "Inauguration",  },
-      { time: "11:00", title: "The Mind Palace",  },
-      { time: "12:00", title: "Bug Detective",  },
-      { time: "14:00", title: "Watson Test",  },
-      { time: "17:00", title: "The Missing Clue",  },
+      { time: "10:00 ", title: "Inauguration", },
+      { time: "11:00", title: "The Mind Palace", },
+      { time: "12:00", title: "Bug Detective", },
+      { time: "14:00", title: "Watson Test", },
+      { time: "17:00", title: "The Missing Clue", },
     ],
   },
   {
@@ -245,14 +246,14 @@ export const SCHEDULE = [
     date: "10 October 2026",
     subtitle: "The Investigation",
     items: [
-      { time: "10:00", title: "Design Detective",  },
-      { time: "11:30", title: "Ideathon",  },
-      { time: "12:00", title: "Crack The code",  },
-      { time: "13:30", title: "The Courtroom",  },
-      
+      { time: "10:00", title: "Design Detective", },
+      { time: "11:30", title: "Ideathon", },
+      { time: "12:00", title: "Crack The code", },
+      { time: "13:30", title: "The Courtroom", },
+
     ],
   },
-  
+
 ];
 
 export const FACULTY = [
@@ -438,6 +439,6 @@ export const CONTACT = {
   socials: [
     { label: "Instagram", href: "https://www.instagram.com/csi_wiet?utm_source=qr&stkn=MWxobG1mbnZ4MzBwNQ==" },
     { label: "LinkedIn", href: "https://www.linkedin.com/company/csi-wiet/posts/?viewAsMember=true" },
-    
+
   ],
 };
