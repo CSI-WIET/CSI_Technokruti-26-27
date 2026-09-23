@@ -169,6 +169,22 @@ export const EVENTS = [
       { name: "Atharva Patil", phone: "9819804208" },
     ],
   },
+  {
+    id: "watson-test",
+    group: "intra-college",
+    title: "Watson Test",
+    poster: "watson-test.jpg",
+    date: "9–10 October 2026",
+    prizePool: "₹35,000",
+    entryFee: "₹50",
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSeIAC2Q4n6RjWd5v5ifJs3j3U3smi00aNi2alP1DlBfLVo63g/viewform?usp=publish-editor",
+    coordinators: [
+      { name: "Soham Vaity", phone: "9321629301" },
+      { name: "Raj Tribhuvane", phone: "9867122306" },
+      { name: "Aditi Shrivastava", phone: "8261053828" },
+    ],
+  },
 
   // ---------- Fun Events ----------
   {
@@ -414,24 +430,12 @@ export const CORE_COMMITTEE = [
 ];
 
 export const SPONSORS = {
-  title: [
-    { name: "Meridian Systems", tier: "Title Sponsor" },
-  ],
+  title: [],
   platinum: [
-    { name: "Oakford Analytics", tier: "Platinum" },
-    { name: "Thornwood Cloud", tier: "Platinum" },
+    { name: "Imperial Overseas", tier: "Platinum" },
   ],
-  gold: [
-    { name: "Pemberton Labs", tier: "Gold" },
-    { name: "Ravenshaw Robotics", tier: "Gold" },
-    { name: "Ledger & Finch", tier: "Gold" },
-  ],
-  silver: [
-    { name: "Grey Hound Coffee", tier: "Silver" },
-    { name: "Ashworth Print Co.", tier: "Silver" },
-    { name: "Nimbus Hosting", tier: "Silver" },
-    { name: "Carrow Stationers", tier: "Silver" },
-  ],
+  gold: [],
+  silver: [],
 };
 
 export const CONTACT = {
