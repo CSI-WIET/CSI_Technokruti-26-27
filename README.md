@@ -105,3 +105,4 @@ to update the site without touching any component.
   now opens a pre-filled email from each event's dossier modal.
 - Respects `prefers-reduced-motion` throughout (cursor, typewriter, marquee,
   parallax, and all transitions degrade gracefully).
+"# CSI_Technokruti-26-27" 
