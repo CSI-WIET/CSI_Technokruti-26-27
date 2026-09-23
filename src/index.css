@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mx: 50vw;
+  --my: 50vh;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #07070a;
+  background-image:
+    radial-gradient(ellipse 900px 600px at 15% -10%, rgba(211, 169, 74, 0.08), transparent 60%),
+    radial-gradient(ellipse 900px 700px at 100% 20%, rgba(124, 93, 30, 0.10), transparent 55%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.012) 0px,
+      rgba(255, 255, 255, 0.012) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar — brass & mahogany */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #120d08;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#a37c29, #7c5d1e);
+  border-radius: 0;
+  border: 1px solid #07070a;
+}
+
+::selection {
+  background: rgba(211, 169, 74, 0.35);
+  color: #f8edc9;
+}
+
+:focus-visible {
+  outline: 2px solid #d1a94a;
+  outline-offset: 3px;
+}
+
+/* Hide native cursor only on fine-pointer devices, once custom cursor mounts */
+.magnify-cursor-active,
+.magnify-cursor-active a,
+.magnify-cursor-active button {
+  cursor: none !important;
+}
+
+/* Paper / parchment grain texture */
+.paper-grain {
+  position: relative;
+  isolation: isolate;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}
+
+/* Section divider — ornamental */
+.ornate-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.ornate-divider::before,
+.ornate-divider::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, rgba(211, 169, 74, 0.6), transparent);
+}
+
+.text-glow {
+  text-shadow: 0 0 18px rgba(211, 169, 74, 0.45);
+}
+
+.card-frame {
+  border: 1px solid rgba(211, 169, 74, 0.25);
+  background: linear-gradient(160deg, rgba(32, 21, 13, 0.9), rgba(11, 10, 13, 0.94));
+}
+
+.gold-underline {
+  background-image: linear-gradient(#d1a94a, #d1a94a);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  transition: background-size 0.4s ease;
+}
+.gold-underline:hover,
+.gold-underline.active {
+  background-size: 100% 2px;
+}
+
+/* Magnify reveal utility */
+.magnify-reveal {
+  position: relative;
+}
+.magnify-reveal .clue-sharp {
+  clip-path: circle(0px at var(--mx, 50%) var(--my, 50%));
+  transition: clip-path 0.05s linear;
+}
+.magnify-reveal:hover .clue-sharp {
+  clip-path: circle(110px at var(--mx, 50%) var(--my, 50%));
+}
+
+@media (max-width: 767px) {
+  .magnify-reveal:hover .clue-sharp,
+  .magnify-reveal .clue-sharp {
+    clip-path: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
