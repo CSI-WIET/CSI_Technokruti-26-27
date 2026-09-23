@@ -143,7 +143,7 @@ export const EVENTS = [
     id: "mind-palace",
     group: "intra-college",
     title: "The Mind Palace",
-    poster: "mind palace.jpg",
+    poster: "mind palace.jpeg",
     date: "9–10 October 2026",
     prizePool: "₹35,000",
     entryFee: "₹50",
