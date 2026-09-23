@@ -148,7 +148,7 @@ export const EVENTS = [
     prizePool: "₹35,000",
     entryFee: "₹50",
     registrationLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSeIAC2Q4n6RjWd5v5ifJs3j3U3smi00aNi2alP1DlBfLVo63g/viewform?usp=publish-editor",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfOLI_qv9q_znlF-7IZHdkyG0VwozHKQ0mK8GIhUEHi5OMYww/viewform?usp=publish-editor",
     coordinators: [
       { name: "Srushti Devrukhkar ", phone: "9769353679" },
       { name: "Vedshree Jadhav", phone: "8329656560" },
