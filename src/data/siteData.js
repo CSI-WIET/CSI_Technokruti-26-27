@@ -299,7 +299,7 @@ export const FACULTY = [
     photo: "kalidas-bhavale.jpg",
     linkedin: "",
     github: "",
-    email: "",
+    email: "kalidas.bhawale@gmail.com",
   },
   {
     name: "Prof. Mugdha Joshi",
@@ -397,7 +397,7 @@ export const CORE_COMMITTEE = [
     role: "Media Co-Head",
     photo: "srishti-pathak.jpg",
     linkedin: "https://www.linkedin.com/in/shrishti-pathak-63a0003a8",
-    github: "",
+    github: "https://github.com/shripathak29",
     email: "",
   },
   {
