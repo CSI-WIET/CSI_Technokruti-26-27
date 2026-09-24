@@ -105,7 +105,7 @@ export default function Events() {
       <div className="mx-auto max-w-7xl px-6 sm:px-10 lg:px-14">
         <SectionHeading
           eyebrow="Open Case Files"
-          title="Eleven Cases, One Long Weekend"
+          title="Twelve Cases, One Long Weekend"
           subtitle="Each poster below is its own case file. Click one to open the full dossier: dates, fees, prizes and who to contact."
         />
 
