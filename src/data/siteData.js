@@ -426,7 +426,7 @@ export const SPONSORS = {
 export const CONTACT = {
   email: "csi@watumull.edu",
   phone: "+91 8452973171",
-  phone: "+91 9867122306",
+
   venueName: "Watumull Institute of Engineering and Technology",
   address:
     "Inside the CHM College Campus, directly opposite Ulhasnagar Railway Station, Ulhasnagar, Maharashtra",
