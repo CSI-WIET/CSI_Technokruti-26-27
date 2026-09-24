@@ -171,6 +171,22 @@ export const EVENTS = [
       { name: "Aditi Shrivastava", phone: "8261053828" },
     ],
   },
+  {
+    id: "Sherlock's-solution",
+    group: "intra-college",
+    title: "Sherlock's Solution",
+    poster: "Sherlock's Solution.jpeg",
+    date: "9–10 October 2026",
+    prizePool: "₹25,000",
+    entryFee: "₹100",
+    registrationLink:
+    "https://docs.google.com/forms/d/e/1FAIpQLSd2yin8iZcn6GD2SoN-dT3MCsgXFuHFzEXKUdhcWahzZfXoiA/viewform?usp=publish-editor",
+    coordinators: [
+      { name: "Rounak Singh", phone: "8779031645" },
+      { name: "Tanmay Marathe", phone: "8976657972" },
+      { name: "Atharva patil", phone: "9819804208" },
+    ],
+  },
 
   // ---------- Fun Events ----------
   {
@@ -238,6 +254,7 @@ export const SCHEDULE = [
       { time: "11:00", title: "The Mind Palace", },
       { time: "12:00", title: "Bug Detective", },
       { time: "14:00", title: "Watson Test", },
+      { time: "15:30", title: "Sherlock's Solution", },
       { time: "17:00", title: "The Missing Clue", },
     ],
   },
