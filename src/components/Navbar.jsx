@@ -79,7 +79,7 @@ export default function Navbar() {
             data-magnify
             className="border border-gold-500/60 px-4 py-2 font-type text-[12px] tracking-wide text-gold-200 transition-all hover:bg-gold-500/10 hover:shadow-gold"
           >
-            Enrol Now
+            Enroll Now
           </button>
         </nav>
 
@@ -132,7 +132,7 @@ export default function Navbar() {
                 onClick={() => goTo("contact")}
                 className="mt-2 border border-gold-500/60 px-4 py-3 text-center font-type text-[12px] tracking-wide text-gold-200"
               >
-                Enrol Now
+                Enroll Now
               </button>
             </div>
           </motion.nav>
