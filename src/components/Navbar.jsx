@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NAV_LINKS, SITE } from "../data/siteData";
 
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("hero");
@@ -75,7 +76,7 @@ export default function Navbar() {
             </button>
           ))}
           <button
-            onClick={() => goTo("contact")}
+            onClick={() => goTo("events")}
             data-magnify
             className="border border-gold-500/60 px-4 py-2 font-type text-[12px] tracking-wide text-gold-200 transition-all hover:bg-gold-500/10 hover:shadow-gold"
           >
