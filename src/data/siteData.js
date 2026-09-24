@@ -285,9 +285,9 @@ export const FACULTY = [
     name: "Prof. Mugdha Joshi",
     role: "Faculty Coordinator",
     photo: "mugdha-joshi.jpg",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/mugdha-joshi-434956439?trk=contact-info",
     github: "",
-    email: "",
+    email: "mughdhaojoshi@gmail.com",
   },
   {
     name: "Prof. Sneha Ingale",
@@ -369,7 +369,7 @@ export const CORE_COMMITTEE = [
     role: "Media Head",
     photo: "soham-vaity.jpg",
     linkedin: "https://www.linkedin.com/in/soham-vaity-15567532",
-    github: "",
+    github: "https://github.com/sohamvaity-weddedmyth",
     email: "",
   },
   {
@@ -392,8 +392,8 @@ export const CORE_COMMITTEE = [
     name: "Arnav Shedge",
     role: "Logistics Head",
     photo: "arnav-shedge.jpg",
-    linkedin: "",
-    github: "",
+    linkedin: "https://www.linkedin.com/in/arnav-shedge-823064439?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    github: "https://github.com/arnavshedge007-code",
     email: "",
   },
   {
