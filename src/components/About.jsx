@@ -9,7 +9,7 @@ import magnifyingMap from "../assets/images/magnifying-map.jpg";
 const LEDGER = [
   { label: "Editions Held", value: "III" },
   { label: "Investigators Last Year", value: "1,200+" },
-  { label: "Open Cases", value: "13" },
+  { label: "Open Cases", value: "12" },
   { label: "Prize Pool", value: "Upto to ₹25,000" },
 ];
 
