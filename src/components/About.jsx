@@ -10,7 +10,7 @@ const LEDGER = [
   { label: "Editions Held", value: "III" },
   { label: "Investigators Last Year", value: "1,200+" },
   { label: "Open Cases", value: "13" },
-  { label: "Prize Pool", value: "Upto to ₹35,000" },
+  { label: "Prize Pool", value: "Upto to ₹25,000" },
 ];
 
 export default function About() {

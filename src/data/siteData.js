@@ -284,7 +284,7 @@ export const FACULTY = [
   {
     name: "Prof. Mugdha Joshi",
     role: "Faculty Coordinator",
-    photo: "mugdha-joshi.jpg",
+    photo: "mughdha-joshi.jpeg",
     linkedin: "https://www.linkedin.com/in/mugdha-joshi-434956439?trk=contact-info",
     github: "",
     email: "mughdhaojoshi@gmail.com",
