@@ -71,7 +71,8 @@ export const EVENTS = [
     poster: "Ideathon.jpeg",
     date: "9–10 October 2026",
     prizePool: "₹25,000",
-    entryFee: "Free for CSI members",
+    entryFee: "₹250",
+    registrationLink: "https://forms.gle/9ir3rzy9sHoufh7PA",
     coordinators: [
       { name: "Aarti Nipurte", phone: "7448087153" },
       { name: "Sofiya Shaikh", phone: "9820289381" },
@@ -85,6 +86,7 @@ export const EVENTS = [
     date: "9–10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹200",
+    registrationLink:"https://docs.google.com/forms/d/e/1FAIpQLSdGSnpcwQ4U5ESMGfCekdm33zsKCsnCydmAPr51wbHQ3ByBJg/viewform?usp=publish-editor",
     coordinators: [
       { name: "Shrishti Pathak", phone: "9082897495" },
       { name: "Rounak Singh", phone: "8779031645" },
@@ -99,6 +101,7 @@ export const EVENTS = [
     date: "9–10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹150",
+    registrationLink: "https://forms.gle/CtmAsepVZbicmCsg7",
     coordinators: [
       { name: "Soham Vaity", phone: "9321629301" },
       { name: "Nikhil More", phone: "9594452632" },
