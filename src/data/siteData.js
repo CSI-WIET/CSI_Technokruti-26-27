@@ -7,7 +7,7 @@ export const SITE = {
   dates: "9-10 October 2026",
   venue: "Watumull Institute of Engineering and Technology, Ulhasnagar",
   blurb:
-    "Somewhere between a locked-room mystery and a hackathon, a college festival went missing its imagination — until now. Technokruti is a three-day technical investigation: build, debug, and out-think 40+ teams across code, robotics, design and strategy, all staged as one long case file waiting to be solved.",
+    "Somewhere between a locked-room mystery and a hackathon, a college festival went missing its imagination — until now. Technokruti is a two-day technical investigation: build, debug, and out-think 40+ teams across code, robotics, design and strategy, all staged as one long case file waiting to be solved.",
 };
 
 export const NAV_LINKS = [
@@ -25,7 +25,7 @@ export const ABOUT_CLUES = [
     label: "Exhibit A",
     title: "A Festival, Disguised as a Mystery",
     text:
-      "Technokruti is our department's flagship technical festival — three days of competitive engineering wrapped in the atmosphere of 221B Baker Street. Every event is a 'case': a problem statement to interrogate, evidence to gather, and a solution to defend before the panel.",
+      "Technokruti is our department's flagship technical festival — two days of competitive engineering wrapped in the atmosphere of 221B Baker Street. Every event is a 'case': a problem statement to interrogate, evidence to gather, and a solution to defend before the panel.",
   },
   {
     label: "Exhibit B",
@@ -69,7 +69,7 @@ export const EVENTS = [
     group: "inter-college",
     title: "Ideathon",
     poster: "Ideathon.jpeg",
-    date: "9–10 October 2026",
+    date: "10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹250",
     registrationLink: "https://forms.gle/9ir3rzy9sHoufh7PA",
@@ -83,7 +83,7 @@ export const EVENTS = [
     group: "inter-college",
     title: "The Courtroom",
     poster: "courtroom.jpeg",
-    date: "9–10 October 2026",
+    date: "10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹200",
     registrationLink:"https://docs.google.com/forms/d/e/1FAIpQLSdGSnpcwQ4U5ESMGfCekdm33zsKCsnCydmAPr51wbHQ3ByBJg/viewform?usp=publish-editor",
@@ -98,7 +98,7 @@ export const EVENTS = [
     group: "inter-college",
     title: "Design Detective",
     poster: "Design Detective.jpeg",
-    date: "9–10 October 2026",
+    date: "10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹150",
     registrationLink: "https://forms.gle/CtmAsepVZbicmCsg7",
@@ -116,7 +116,7 @@ export const EVENTS = [
     group: "intra-college",
     title: "Crack the Code",
     poster: "Crack the Code.jpeg",
-    date: "9–10 October 2026",
+    date: "10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹150",
     registrationLink: "https://forms.gle/pRDDqmbo329NcCu26",
@@ -131,7 +131,7 @@ export const EVENTS = [
     group: "intra-college",
     title: "Bug Detective",
     poster: "Bug detective.jpeg",
-    date: "9–10 October 2026",
+    date: "9 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹150",
     registrationLink:
@@ -147,7 +147,7 @@ export const EVENTS = [
     group: "intra-college",
     title: "The Mind Palace",
     poster: "mind palace.jpeg",
-    date: "9–10 October 2026",
+    date: "9 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹50",
     registrationLink:
@@ -163,7 +163,7 @@ export const EVENTS = [
     group: "intra-college",
     title: "Watson Test",
     poster: "Watson Test.jpeg",
-    date: "9–10 October 2026",
+    date: "9 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹50",
     registrationLink:
@@ -179,7 +179,7 @@ export const EVENTS = [
     group: "intra-college",
     title: "Sherlock's Solution",
     poster: "Sherlock's Solution.jpeg",
-    date: "9–10 October 2026",
+    date: "9 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹100",
     registrationLink:
@@ -266,7 +266,7 @@ export const SCHEDULE = [
     date: "10 October 2026",
     subtitle: "The Investigation",
     items: [
-      { time: "10:00", title: "Design Detective", },
+      { time: "9:30", title: "Design Detective", },
       { time: "11:30", title: "Ideathon", },
       { time: "12:00", title: "Crack The code", },
       { time: "13:30", title: "The Courtroom", },

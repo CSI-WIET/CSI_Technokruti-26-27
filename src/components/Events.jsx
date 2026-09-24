@@ -113,7 +113,7 @@ export default function Events() {
           src={evidenceBoard}
           alt="An investigation corkboard with photos, notes and red string connecting suspects"
           eyebrow="The Board"
-          caption="Pin the evidence. Follow the thread. Eleven cases, three tracks."
+          caption="Pin the evidence. Follow the thread. Twelve cases, three tracks."
           className="mt-14"
         />
 
