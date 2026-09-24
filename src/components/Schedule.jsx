@@ -13,7 +13,7 @@ export default function Schedule() {
       <div className="mx-auto max-w-5xl px-6 sm:px-10 lg:px-14">
         <SectionHeading
           eyebrow="The Timeline"
-          title="Three Days, In Order"
+          title="Two Days, In Order"
           subtitle="A minute-by-minute account of the investigation, from opening statements to the final reveal."
         />
 
