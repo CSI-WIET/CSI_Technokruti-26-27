@@ -7,7 +7,7 @@ export const SITE = {
   dates: "9-10 October 2026",
   venue: "Watumull Institute of Engineering and Technology, Ulhasnagar",
   blurb:
-    "Somewhere between a locked-room mystery and a hackathon, a college festival went missing its imagination — until now. Technokruti is a two-day technical investigation: build, debug, and out-think 40+ teams across code, robotics, design and strategy, all staged as one long case file waiting to be solved.",
+    "Somewhere between a locked room mystery and a hackathon, a college festival went missing its imagination until now. Technokruti is a Two day technical investigation: build, debug, and out-think 40+ teams across code, robotics, design and strategy, all staged as one long case file waiting to be solved.",
 };
 
 export const NAV_LINKS = [
@@ -25,13 +25,13 @@ export const ABOUT_CLUES = [
     label: "Exhibit A",
     title: "A Festival, Disguised as a Mystery",
     text:
-      "Technokruti is our department's flagship technical festival — two days of competitive engineering wrapped in the atmosphere of 221B Baker Street. Every event is a 'case': a problem statement to interrogate, evidence to gather, and a solution to defend before the panel.",
+      "Technokruti is our department's flagship technical festival — Two days of competitive engineering wrapped in the atmosphere of 221B Baker Street. Every event is a 'case': a problem statement to interrogate, evidence to gather, and a solution to defend before the panel.",
   },
   {
     label: "Exhibit B",
     title: "Who It's For",
     text:
-      "Undergraduate investigators from any discipline — coders, makers, designers and strategists — working solo or in teams of up to four. No deerstalker required, though we won't stop you.",
+      "Undergraduate investigators from any discipline coders, makers, designers and strategists — working solo or in teams of up to four. No deerstalker required, though we won't stop you.",
   },
   {
     label: "Exhibit C",
