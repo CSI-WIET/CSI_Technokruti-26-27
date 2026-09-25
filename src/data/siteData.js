@@ -86,7 +86,7 @@ export const EVENTS = [
     date: "10 October 2026",
     prizePool: "₹25,000",
     entryFee: "₹200",
-    registrationLink:"https://docs.google.com/forms/d/e/1FAIpQLSdGSnpcwQ4U5ESMGfCekdm33zsKCsnCydmAPr51wbHQ3ByBJg/viewform?usp=publish-editor",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSdGSnpcwQ4U5ESMGfCekdm33zsKCsnCydmAPr51wbHQ3ByBJg/viewform?usp=publish-editor",
     coordinators: [
       { name: "Shrishti Pathak", phone: "9082897495" },
       { name: "Rounak Singh", phone: "8779031645" },
@@ -183,7 +183,7 @@ export const EVENTS = [
     prizePool: "₹25,000",
     entryFee: "₹100",
     registrationLink:
-    "https://docs.google.com/forms/d/e/1FAIpQLSd2yin8iZcn6GD2SoN-dT3MCsgXFuHFzEXKUdhcWahzZfXoiA/viewform?usp=publish-editor",
+      "https://docs.google.com/forms/d/e/1FAIpQLSd2yin8iZcn6GD2SoN-dT3MCsgXFuHFzEXKUdhcWahzZfXoiA/viewform?usp=publish-editor",
     coordinators: [
       { name: "Rounak Singh", phone: "8779031645" },
       { name: "Tanmay Marathe", phone: "8976657972" },
@@ -243,6 +243,20 @@ export const EVENTS = [
     coordinators: [
       { name: "Pranav Tiwari", phone: "8452973171" },
       { name: "Vedant Madiwal", phone: "8850427012" },
+    ],
+  },
+  {
+    id: "mystry-motion",
+    group: "fun-event",
+    title: "Mystry in Motion",
+    poster: "mystry motion.jpeg",
+    date: "9–10 October 2026",
+    prizePool: "₹25,000",
+    entryFee: "₹20",
+    coordinators: [
+      { name: "Prem Nikam", phone: "9322435821" },
+      { name: "Ashvini Thube", phone: "8451091935" },
+      { name: "Sudhanshu Muneshwar", phone: "8928471389" },
     ],
   },
 ];
